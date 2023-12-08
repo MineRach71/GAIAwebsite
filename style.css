@@ -1,0 +1,300 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {  /* paragraph box color #66CC88 or #52A36D #03A63C = green */
+  background-color: #80ffaa;
+  font-family: 'Playpen Sans';
+  font-size: 22px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.alignment {
+  text-align: justify;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.heading2 {
+  font-family: 'Lobster';
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 150px;
+}
+
+.heading1 {
+  font-family: 'Lobster';
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: 150px;
+}
+
+.heading3 {
+  font-family: 'Lobster';
+  font-size: 45px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.home {
+
+}
+
+/*ABOUT PAGES*/
+.aboutPara {
+  padding: 20px;
+  text-align: justify;
+  background-color: #03A63C;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/*creating 3 equal columns*/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 100px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: px;
+  margin-right: 0px;
+  box-sizing: border-box;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*CONTACT PAGE*/
+.socialMedia{
+  background-color: #52A36D;
+  padding: 20px;
+  text-align: justify;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.list {
+  padding-left: 50px;
+}
+
+.map {
+  background-color: #66CC88;
+  padding: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.form {
+  background-color: #03A63C;
+  padding: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+
+/* OCEANS PAGE */
+
+
+/* Create two equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 50%;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/****IMAGES****/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.aligncenter {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+
+/********* Code for nav ********/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /*the values you specify for an element's width and height*/
+}
+
+nav {
+  border: 5px solid #4d79ff;
+  /*border around nav menu*/
+  margin-left: 200px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+nav ul {
+  list-style: none;
+  background: #30C5FF;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px 35px;
+  text-align: center;
+  font-family: 'Lobster';
+  font-size: 25px;
+  text-decoration: none;
+  color: #07739D;
+}
+
+nav ul li ul.dropdown li {
+  display: block;
+}
+
+nav ul li ul.dropdown {
+  width: 100%;
+  background: #30C5FF;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+nav ul li a:hover {
+  background: #83DCFF;
+}
+
+nav ul li:hover ul.dropdown {
+  display: block;
+}
+
+.logo img{
+  width: 150px;
+  position: absolute;
+  margin-left: 15px;
+  margin: 25px;
+}
+
+
+/* footer */
+footer {
+  background-color: #25FFEF;
+  color: #000;
+  text-align: center;
+  padding: 3px;
+}
+
+/***********MOBILE*************/
+@media screen and (max-width: 600px) {
+
+  .column {
+    float: left;
+    width: 100%;
+  }
+
+  .column2 {
+    float: left;
+    width: 100%;
+  }
+
+  .columnSeaSols {
+    float: left;
+    width: 100%;
+  }
+
+  body {  
+    background-color: #80ffaa;
+    font-family: 'Playpen Sans';
+    font-size: 18px;
+  }
+
+  .alignment {
+    text-align: justify;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  .heading1 {
+    font-family: 'Lobster';
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 35px;
+  }
+}
+
+
+
+
+/**************TABLET************/
+@media screen and (max-width: 992px) {
+
+  .column {
+    float: left;
+    width: 100%;
+  }
+  
+  .column2 {
+    float: left;
+    width: 100%;
+  }
+
+  .columnSeaSols {
+    float: left;
+    width: 100%;
+  }
+
+  body {  
+    background-color: #80ffaa;
+    font-family: 'Playpen Sans';
+    font-size: 20px;
+  }
+
+  .alignment {
+    text-align: justify;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  .heading1 {
+    font-family: 'Lobster';
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 35px;
+
+  .aligncenter {
+        text-align: center;
+        margin-left: 60px;
+        margin-right: 60px;
+  }
+  
+}

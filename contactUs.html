@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="description" content="This is my first website">
+  <meta name="keywords" content="edinburgh, students, college">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+  <link rel="stylesheet" href="style.css">
+  <title>GAIA - Contact Us</title>
+</head>
+
+
+<body>
+
+  <div class="logo">
+    <img src="Images/Logo/logoGAIA.png">
+    </div>
+    <br>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="#">Topics</a>
+        <ul class="dropdown">
+          <li><a href="oceans.html">Oceans</a></li>
+          <li><a href="deserts.html">Deserts</a></li>
+          <li><a href="forests.html">Forests</a></li>
+          <li><a href="weather.html">Weather</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contactUs.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <br>
+
+  <h1 class="heading1">Contact Us</h1>
+
+  <br>
+  <div class="map">
+    <h2 class="heading3">Location</h2>
+    <br>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2233.4404460917413!2d-3.189315823529364!3d55.959069676085306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c78c88de0745%3A0xb1ec7773b0018344!2sGaia%20Group!5e0!3m2!1sen!2suk!4v1701549861456!5m2!1sen!2suk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <br>
+  <br>
+  
+
+  <div class="socialMedia">
+    <h2 class="heading3">Social Media</h2>
+    <p>To know more about what we are currently doing, go to our social media pages to stay up-to-date with how we help improve the environment across the world and raise awareness about the world's problems.</p>
+    <br>
+    <div class="row">
+
+      <div class="column">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="Images/SocialMedia/facebook.png" width="100px" height="100px"> </a>
+      </div>
+
+      <div class="column">
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="Images/SocialMedia/instagram.png" width="100px" height="100px"> </a>
+      </div>
+
+      <div class="column">
+        <a href="https://www.twitter.com/" target="_blank">
+          <img src="Images/SocialMedia/twitter.png" width="100px" height="100px"> </a>
+      </div>
+    </div>
+
+    <br>
+    <h2 class="heading3">Phone & E-mail</h2>
+    <p>To contact us: </p>
+    <ul class="list">
+      <li>Email: <a href="mailto: GAIA@example.com"><b>GAIA@example.com</b></a></li>
+      <li>Phone: <a href="tel: 0131555666"><b>0131555666</b></a></li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+
+  <div class="form">
+    <h2 class="heading3">Contact Form</h2>
+    <form>
+      <label for="fname">First Name:</label>
+      <!--br insets a single line break-->
+      <br>
+      <!--defines a single line input field for text input.-->
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last Name:</label><br>
+      <input type="text" id="lname" name="lname">
+      <br><br>
+
+      <!--radio button to select option-->
+      <label for="gender">Gender:</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female:</label><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male:</label>
+      <br><br>
+
+      <!--dropdown menu-->
+      <label for="location">>Location:</label><br>
+      <select id="location" namme="location">
+        <option value="Midlothian">Midlothian</option>
+        <option value="West Lothian">West Lothian</option>
+        <option value="East Lothian">East Lothian</option>
+        <option value="Edinburgh">Edinburgh</option>
+      </select>
+      <br><br>
+
+      <label for="message">Message:</label><br>
+
+      <textarea id="message" name="message" rows="4" cols="50">
+      </textarea>
+      <br><br>
+
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+  
+  <br>
+  <br>
+  <br>
+  <footer>
+    <br>
+    <p>Copyright @2023<br>
+      <a href="mailto:hege@example.com">hege@example.com</a>
+    </p>
+    <br>
+  </footer>
+
+
+
+</body>
+
+</html>
